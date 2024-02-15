@@ -63,4 +63,19 @@
 
 ## **Notebooks sobre el Modelo de Hudgkin-Huxley**
 
-[Notebooks](./../../Teoria/Codigo-Teoria/Notebooks/00 Modelo de Hudgkin-Huxley/README.md)
+[Notebooks](./../../Codigo-Teoria/Notebooks/00%20Modelo%20de%20Hudgkin-Huxley/)
+
+-------------------------
+
+## **MIT*OPEN*COURSEWARE**
+
+### **Introduction To Neural Computation**
+
+[![](./Ejemplos_numpy/imagenes/Mit-Logo.png)](https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/lecture-videos/)
+
+Imagen recuperada de: https://en.wikipedia.org/wiki/File:License_icon-mit.svg
+
+Introduction to Neural Computation (MIT): https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/lecture-videos/
+
+
+
