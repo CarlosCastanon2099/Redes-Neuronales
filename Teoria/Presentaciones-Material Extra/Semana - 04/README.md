@@ -1,7 +1,7 @@
-# 📺 YouTube Videos
-# Entrenamiento por retropropagación
+# 📺 **YouTube Videos**
+# **Entrenamiento por retropropagación**
 
-## 1. Entrenamiento
+## **1. Entrenamiento**
 
 <table>
 <tr>
@@ -37,3 +37,26 @@
 <td><a href="https://www.youtube.com/watch?v=9KBgIqmnEUo">1.5. Parcial con respecto a los pesos en la penúltima capa</a><br/></td>
 </tr>
 </table>
+
+
+--------
+
+# **Vectorización (Parte I)**
+
+## **1. Entrenamiento**
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=RmCpoD9qXk4"><img width="140px" src="https://i.ytimg.com/vi/RmCpoD9qXk4/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=RmCpoD9qXk4">1.1. Vectorización</a><br/></td>
+</tr>
+</table>
+
+
+--------------
+
+
+
+
+
+
