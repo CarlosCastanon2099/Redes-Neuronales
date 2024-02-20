@@ -132,9 +132,49 @@
 </tr>
 </table>
 
+-------------------------
 
+## **5. Optimización del entrenamiento**
 
+-------------------------
 
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=cX4LinwXIa8"><img width="140px" src="https://i.ytimg.com/vi/cX4LinwXIa8/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=cX4LinwXIa8">5.1. Entrenamiento en línea vs en lotes</a><br/></td>
+</tr>
+</table>
 
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=FyO7K8AY9wY"><img width="140px" src="https://i.ytimg.com/vi/FyO7K8AY9wY/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=FyO7K8AY9wY">5.2. Normalización</a><br/></td>
+</tr>
+</table>
 
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=ytczJbNyEMs"><img width="140px" src="https://i.ytimg.com/vi/ytczJbNyEMs/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=ytczJbNyEMs">5.3. Normalización por lotes</a><br/></td>
+</tr>
+</table>
 
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=kObuSUVcFUg"><img width="140px" src="https://i.ytimg.com/vi/kObuSUVcFUg/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=kObuSUVcFUg">5.4. Regularización</a><br/></td>
+</tr>
+</table>
+
+-------------------------
+
+## **Bibliografía adicional**
+
+-------------------------
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=aircAruvnKk"><img width="140px" src="https://i.ytimg.com/vi/aircAruvnKk/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=aircAruvnKk">Pero ¿qué es una red neuronal? | Capítulo 1, Aprendizaje profundo</a><br/></td>
+</tr>
+</table>
