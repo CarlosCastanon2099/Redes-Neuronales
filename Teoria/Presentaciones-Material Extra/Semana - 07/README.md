@@ -37,6 +37,9 @@
 </tr>
 </table>
 
+## **Notebook sobre el Ejemplo**
+[Notebook](./Codigo-Notebooks/02-Kohonen.ipynb)
+
 ---------------
 
 ## **2. Neuroevolución Profunda**
