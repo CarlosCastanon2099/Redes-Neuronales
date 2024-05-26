@@ -204,6 +204,20 @@ class Maquina:
                 y[estado] += 1
             part_axes[i].bar(x, y)
         return datos.fig
+    
+    def probabilidad_neurona_oculta(self, h, W, v):
+        """
+        Calcula la probabilidad de activacion de una neurona oculta.
+        """
+        z = np.dot(W[h], v)
+        return 1.0 / (1.0 + np.exp(-z))
+
+    def probabilidad_neurona_visible(self, v, W, h):
+        """
+        Calcula la probabilidad de activacion de una neurona visible.
+        """
+        z = np.dot(W[v], h)
+        return 1.0 / (1.0 + np.exp(-z))
 
     def simula_fantasia(self, ciclos, canvas=None, num_particula=0):
         """
@@ -211,7 +225,18 @@ class Maquina:
         :param ciclos: número de veces que actualizará todos los valores de las neuronas de cada partícula.
         :return:
         """
-        MessageBox.showinfo("TODO", "Programar:\n" + str(Maquina.simula_fantasia)+ " por " + str(ciclos) + " ciclos.")
+        for ciclo in range(ciclos):
+            for particula in self.particulas_fantasia:
+                for i in range(self.num_neuronas):
+                    if i < self.num_visibles:  # neuronas visibles
+                        h = particula[self.num_visibles:]
+                        prob = self.probabilidad_neurona_visible(i, self.pesos[:self.num_visibles, self.num_visibles:], h)
+                        particula[i] = np.random.rand() < prob
+                    else:  # neuronas ocultas
+                        v = particula[:self.num_visibles]
+                        prob = self.probabilidad_neurona_oculta(i - self.num_visibles, self.pesos[self.num_visibles:, :self.num_visibles], v)
+                        particula[i] = np.random.rand() < prob
+
         if(canvas != None):
             print("Siguiendo: ", num_particula)
             self.dibuja_particula(self.particulas_fantasia[num_particula], canvas)
@@ -222,8 +247,14 @@ class Maquina:
         :param ciclos: número de veces que actualizará todos los valores de las neuronas de cada partícula.
         :return:
         """
-        MessageBox.showinfo("TODO", "Programar:\n" + str(Maquina.simula_particulas) + " por " + str(ciclos) +
-                            "ciclos, dibujando el dato de entrenamiento #" + str(num_dato) + " partícula " + str(num_particula))
+        for ciclo in range(ciclos):
+            particulas = self.particulas[num_dato]
+            for particula in particulas:
+                for i in range(self.num_visibles, self.num_neuronas):  # solo neuronas ocultas
+                    v = particula[:self.num_visibles]
+                    prob = self.probabilidad_neurona_oculta(i - self.num_visibles, self.pesos[self.num_visibles:, :self.num_visibles], v)
+                    particula[i] = np.random.rand() < prob
+
         if (canvas != None):
             print("Siguiendo: ", num_dato, ", ", num_particula)
             self.dibuja_particula(self.particulas[num_dato][num_particula], canvas)
@@ -233,9 +264,34 @@ class Maquina:
         Asigna nuevos valores a los pesos utilizando los valores esperados
         de los productos de los valores de activación de las neuronas que conectan.
         """
+        # Paso positivo - calculo de la expectativa empirica
+        positive_phase = np.zeros_like(self.pesos)
+        for x in self.datos_de_entrenamiento:
+            v0 = x
+            h0_prob = self.probabilidad_neurona_oculta(np.arange(self.num_ocultas), self.pesos[self.num_visibles:, :self.num_visibles], v0)
+            h0 = (np.random.rand(self.num_ocultas) < h0_prob).astype(np.float32)
+            positive_phase[:self.num_visibles, self.num_visibles:] += np.outer(v0, h0)
+            positive_phase[self.num_visibles:, :self.num_visibles] += np.outer(h0, v0)
+
+        # Paso negativo - calculo de la expectativa del modelo (usando particulas de fantasia)
+        negative_phase = np.zeros_like(self.pesos)
+        for particula in self.particulas_fantasia:
+            v = particula[:self.num_visibles]
+            h = particula[self.num_visibles:]
+            negative_phase[:self.num_visibles, self.num_visibles:] += np.outer(v, h)
+            negative_phase[self.num_visibles:, :self.num_visibles] += np.outer(h, v)
+
+        # Actualizacion de los pesos
+        self.pesos += (positive_phase - negative_phase) / self.num_particulas
+
+        # Normalizacion de los pesos
+        #max = np.amax(self.pesos)
+        #self.pesos = self.pesos / max
+        #print(self.pesos)
+
+        print("Pesos actualizados")
 
 
-        MessageBox.showinfo("TODO", "Programar:\n" + str(Maquina.actualiza_pesos))
 
 
 class Toolbar(tk.Frame):
