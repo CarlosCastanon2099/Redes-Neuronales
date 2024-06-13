@@ -1,6 +1,6 @@
 <div align="center">
 
-# ♠️ **Practica 06** ♦️
+# 🍷 **Practica 06** 🧬
 
 
 
@@ -10,10 +10,10 @@
 </div>
 
 
-
 <div align="center">
 
-[![](https://i.makeagif.com/media/6-01-2019/0JHtqq.gif)](https://www.youtube.com/watch?v=T23AY5gYhpE)
+<a href="https://www.youtube.com/watch?v=T23AY5gYhpE">
+<img src="https://media.tenor.com/WZ7_oDHspdgAAAAi/wolverine-logan.gif" width="175">
 
 </div>
 
@@ -73,18 +73,10 @@ Es importante recordar tambien que debemos asegurarnos de que tenemos instalado 
 
 ## **Uso**
 
-Para correr el programa que implementa el entrenamiento con Algoritmos Geneticos
-mediante el uso del data-set [Poker Hand](https://archive.ics.uci.edu/dataset/158/poker+hand), se debe abrir el Jupyter Notebook en algun editor 
-(como Jupyter nativo, VS Code, etc.).
+Para correr el programa que implementa el entrenamiento de una Red Neuronal mediante Algoritmos Geneticos (basado en el articulo [Training Feedforward Neural Networks Using Genetic Algorithms](https://www.ijcai.org/Proceedings/89-1/Papers/122.pdf) ) para la prediccion de un buen vino 🍷  mediante el uso del data-set [Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality), 
+se debe abrir el Jupyter Notebook en algun editor (como Jupyter nativo, VS Code, etc.).
 
-[Práctica-05](./Poker.ipynb)
-
-<div align="center">
-
-![ImgRedNTrain](https://github.com/CarlosCastanon2099/Redes-Neuronales/assets/108638686/4340cd4e-f52a-4979-9810-17254223ff75)
+[Práctica-06](./Genético.ipynb)
 
 
-![ImgRedNMC](https://github.com/CarlosCastanon2099/Redes-Neuronales/assets/108638686/9cd330be-5038-47c0-acac-e7872372f2f9)
-
-</div>
 
