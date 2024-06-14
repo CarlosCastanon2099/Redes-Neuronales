@@ -72,3 +72,12 @@ Windows:
 \Practica-09> python GUI.py
 ```
 
+
+
+[Máquina de Boltzmann.webm](https://github.com/CarlosCastanon2099/Redes-Neuronales/assets/108638686/f14642f1-68e0-4059-9097-2419be6a8189)
+
+
+
+
+
+
