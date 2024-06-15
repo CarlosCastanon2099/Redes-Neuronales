@@ -139,4 +139,144 @@ Aplicación de varias redes recurrentes al problema de buscar en una base de dat
 
 ## **Redes neuronales para problemas de regresión**
 
+Artículo resumen sobre el planteamiento de problemas de regresión utilizando redes neuronales:
+
+[Many regression algorithms, one unified model: A review, Freek Stulp and Olivier Sigaud](https://www.sciencedirect.com/science/article/abs/pii/S0893608015001185)
+
+Repaso sobre transformadas de Fourier
+
+http://www.thefouriertransform.com/
+
+
+## **Aprendizaje profundo**
+
+Diapositivas: Lo que el aprendizaje profundo significa para la inteligencia artificial 
+
+[https://es.slideshare.net/jmugan/deep-learningforartificialintelligence](https://es.slideshare.net/jmugan/deep-learningforartificialintelligence)
+
+Tutorial en línea de Juan C. Cuevas-Tello, Manuel Valenzuela-Rendon y Juan A. Nolazco-Flores <http://arxiv.org/abs/1603.07249>
+
+Sesiones de la Escuela de Verano en Aprendizaje Profundo 2015 en Montreal, Canadá. <http://videolectures.net/deeplearning2015_montreal/>
+
+## **Redes de Hopfield**
+
+[Hopfield network](http://www.scholarpedia.org/article/Hopfield_network)
+
+## **Máquinas de Boltzmann**
+
+[A Beginner's Guide to Restricted Boltzmann Machines (RBMs)](https://skymind.ai/wiki/restricted-boltzmann-machine)
+
+## **Herramientas**
+
+Redes para reconocimiento visual
+
+[YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
+
+## **PyTorch**
+
+Tutorial introductorio a PyTorch <https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#nn-module>
+
+Un poco más de detalles sobre cómo PyTorch calcula los gradientes automáticamente <https://pytorch.org/docs/stable/notes/autograd.html>
+
+Resaltando:
+
+*"Autograd is reverse automatic differentiation system. Conceptually, autograd records a graph recording all of the operations that created the data as you execute operations, giving you a directed acyclic graph whose leaves are the input tensors and roots are the output tensors. By tracing this graph from roots to leaves, you can automatically compute the gradients using the chain rule."*
+
+## **Tensor Board**
+
+[jhui.github.io/2017/03/12/TensorBoard-visualize-your-learning/ ](https://jhui.github.io/2017/03/12/TensorBoard-visualize-your-learning/)
+
+[Tensorboard tutorial](https://neptune.ai/blog/tensorboard-tutorial)
+
+## **Mapas de Kohonen**
+
+Los mapas auto-organizados de Kohonen (SOM) 
+
+<http://halweb.uc3m.es/esp/Personal/personas/jmmarin/esp/DM/tema5dm.pdf>
+
+## **Redes adversarias generativas (GAN)**
+
+Video que explica y muestra StyleGAN v2, desarrollada por NVidia. 
+
+[YouTube StyleGANv2 Explained!](https://www.youtube.com/watch?v=u8qPvzk0AfY)
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=u8qPvzk0AfY"><img width="140px" src="https://i.ytimg.com/vi/u8qPvzk0AfY/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=u8qPvzk0AfY"> StyleGANv2 Explained!</a><br/></td>
+</tr>
+</table>
+
+Espacio latente
+
+[El espacio latente en la IA](https://www.europeanvalley.es/noticias/el-espacio-latente-en-la-ia/)
+
+## **Redes sobre grafos** 
+
+<https://distill.pub/2021/gnn-intro/>
+
+## **Campo de resplandor neuronal (*Neural radiance neld NeRF*)**
+
+Representan una escena estática como una función continua 5D que devuelve la radianza emitida en cada dirección (θ, φ) desde cada punto (x, y, z) en el espacio según el método de trazado de rayos. El método optimiza un perceptrón multicapa.
+
+- [Neural Radiance Field (NeRF): A Gentle Introduction](https://datagen.tech/guides/synthetic-data/neural-radiance-field-nerf/)
+- [Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf)
+- [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdf)
+
+## **Redes para procesamiento de audio**
+
+[A Guide to DeepSpeech Speech to Text](https://medium.com/plain-simple-software/a-guide-to-deepspeech-speech-to-text-b4b051477cfa)
+
+Fuente: https://deepspeech.readthedocs.io/en/r0.9/?badge=latest 
+
+
+# **Videos de interés**
+
+## **Curso Redes Neuronales**
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=-KJU_o8MEck&list=PLdFhsX0Ypsns_d5I5nTiQ329gO4v0nyeH"><img width="140px" src="https://i.ytimg.com/vi/EfzMt6YurOA/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=-KJU_o8MEck&list=PLdFhsX0Ypsns_d5I5nTiQ329gO4v0nyeH"> Curso Redes Neuronales</a><br/></td>
+</tr>
+</table>
+
+## **Curso sobre redes neuronales convolucionales en Stanford**
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=1"><img width="140px" src="https://i.ytimg.com/vi/vT1JzLTH4G4/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=1"> Neural Networks</a><br/></td>
+</tr>
+</table>
+
+
+## **Redes adversarias generativas (GAN)**
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=u8qPvzk0AfY"><img width="140px" src="https://i.ytimg.com/vi/u8qPvzk0AfY/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=u8qPvzk0AfY"> StyleGANv2 Explained!</a><br/></td>
+</tr>
+</table>
+
+## **Deep Neural Networks are Easily Fooled**
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=M2IebCN9Ht4"><img width="140px" src="https://i.ytimg.com/vi/M2IebCN9Ht4/mqdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=M2IebCN9Ht4"> Deep Neural Networks are Easily Fooled</a><br/></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
 
