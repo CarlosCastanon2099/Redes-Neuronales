@@ -1,10 +1,12 @@
+<div align="center">
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+<!--
 [![Issues][issues-shield]][issues-url]
 [![GNU General Public License v3.0][license-shield]][license-url]
-
-<div align="center">
+-->
 
 #   <img src="https://media.tenor.com/tQWHVyjFdk4AAAAi/network-network-sellcom.gif" width="30"> **Redes Neuronales** <img src="https://media.tenor.com/uF97BIo6HC4AAAAi/zero-mega-man.gif" width="80">
 
@@ -38,7 +40,7 @@ Miguel Angel Liera Montaño  ~ Eric Toporek Coca ~ Luis Fermín Martínez Manzo 
 [issues-shield]: https://img.shields.io/github/issues/CarlosCastanon2099/Redes-Neuronales.svg?style=for-the-badge
 [issues-url]: https://github.com/CarlosCastanon2099/Redes-Neuronales/issues
 [license-shield]: https://img.shields.io/github/license/CarlosCastanon2099/Redes-Neuronales.svg?style=for-the-badge
-[license-url]: https://github.com/CarlosCastanon2099/Redes-Neuronales/blob/master/LICENSE.txt
+[license-url]: https://github.com/CarlosCastanon2099/Redes-Neuronales/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
